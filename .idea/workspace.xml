@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="499f7499-b750-4f90-8b1d-edec85fee102" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Classroom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sign_in.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sign_in.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountEmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgot_password.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register_submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/register_submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign_in_submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign_in_submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="XAMPP PHP 7.4" />
+  <component name="ProjectId" id="1jVw9evQx1ULUO8RlgwMxF9eqA4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Classroom" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="499f7499-b750-4f90-8b1d-edec85fee102" name="Default Changelist" comment="" />
+      <created>1603902416938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603902416938</updated>
+      <workItem from="1603902418014" duration="8744000" />
+      <workItem from="1603986442970" duration="13449000" />
+      <workItem from="1604066284864" duration="15002000" />
+      <workItem from="1604136831872" duration="6642000" />
+      <workItem from="1604209804477" duration="2819000" />
+      <workItem from="1604236271749" duration="17214000" />
+      <workItem from="1604256458382" duration="1323000" />
+      <workItem from="1604307900968" duration="5874000" />
+      <workItem from="1604326316971" duration="15345000" />
+      <workItem from="1604562742836" duration="3230000" />
+      <workItem from="1605621492252" duration="62000" />
+      <workItem from="1605621586058" duration="77000" />
+      <workItem from="1605716250293" duration="30000" />
+      <workItem from="1605716544890" duration="128000" />
+      <workItem from="1606310118235" duration="615000" />
+      <workItem from="1606310910991" duration="18508000" />
+      <workItem from="1606356781310" duration="5946000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="194" y="253" key="#SQL_Dialects" timestamp="1606323879334">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="194" y="253" key="#SQL_Dialects/0.0.1536.834@0.0.1536.834" timestamp="1606323879334" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606326826032">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606326826032" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606310136535">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606310136535" />
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1606328410746">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1606328410746" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1604078047985">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604078047985" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1604310291265">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1604310291265" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1605716628491">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1605716628491" />
+  </component>
+</project>

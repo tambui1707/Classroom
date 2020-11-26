@@ -1,0 +1,590 @@
+body, html{
+    color: #3c4043;
+    margin: 0;
+}
+.btn {
+    border-radius: unset;
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 1px 8px 0 rgba(0,0,0,0.20);
+}
+.navbar-brand {
+    margin-left: 24px;
+}
+
+.nav-user:hover {
+    text-decoration: underline;
+}
+.show-sidebar {
+    outline: none;
+    width: 24px;
+    height: 24px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: 0.3s;
+    box-shadow: 0 4px 4px 0 rgba(60,64,67,0.302), 0 8px 12px 6px rgba(60,64,67,0.149);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.sidebar-header, .sidebar-enrolled{
+    padding-bottom: 0.5rem;
+}
+.sidebar-footer {
+    width:100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+#sidebar-user {
+    display: none;
+    font-weight: unset;
+}
+.popover .arrow {
+    display: none;
+}
+.popover {
+    width: 19rem;
+    background-color: #f7f7f7;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 1px 8px 0 rgba(0,0,0,0.20);
+    border-radius: unset;
+}
+.sidebar .nav-link, .sidebar .nav-link:hover {
+    color: #3c4043;
+}
+
+.class, .signin, .signout, .sidebar-header-home, .sidebar-header-user, .sidebar-enrolled-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.sidebar-footer, .sidebar-create-class{
+    display: none;
+}
+.class-item {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px 0 8px 0;
+    margin: 0 16px 0 16px;
+}
+
+.nav-item:hover, .signin:hover, .signout:hover,.sidebar-header-home:hover {
+    background-color: #EAECEE ;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 25%;
+    margin-left: 3.5rem;
+}
+
+.mobile-signin {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #user {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-signin, .nav-welcome, #plus-icon{
+        display: none;
+    }
+
+    .sidebar-footer, .sidebar-create-class{
+        display: block;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .mobile-signin {
+        display: block;
+        margin: auto;
+        background: rgba(41, 43, 44, 0.5)
+    }
+
+    .mobile-signin-item {
+        float: left;
+        clear: both;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .show-sidebar {
+        width: 21px;
+        height: 21px;
+    }
+    .brand{
+        font-size: 1.25rem;
+    }
+    .description {
+        display: none;
+    }
+
+    .mobile-signin {
+        display: block;
+        margin: auto;
+        background: rgba(41, 43, 44, 0.5)
+    }
+
+    .mobile-signin-item {
+        float: left;
+        clear: both;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid{
+    width: 100%;
+    position: absolute;
+    height: 91%;
+    padding-top: 1.5rem;
+    margin-top: 4.2375rem
+}
+
+.class-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: transparent;
+}
+
+.class-list-item {
+    background: transparent;
+    border: none;
+    display: inline-block;
+    width: fit-content;
+}
+
+.cell {
+    color: #3c4043;
+    width: 18.75rem;
+    height: 18.375rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.cell:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.cell-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    height: 6.25rem;
+    padding: 1.25rem;
+    color: #3c4043;
+}
+
+.cell-option-btn {
+    position: absolute;
+    right: 2.5rem;
+    width: 24px;
+    height: 24px;
+}
+
+.cell-option {
+    position: absolute;
+    width: 128px;
+    height: 48px;
+    left: 180px;
+    bottom: 218px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+
+.cell-option-list {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 8px 0;
+}
+
+.cell-option-list-item {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 16px;
+
+}
+
+.cell-option-list-item:hover {
+    background-color: #EAECEE;
+}
+
+.collapse {
+    visibility: hidden;
+}
+.collapse.show {
+    visibility: visible;
+    display: block;
+}
+.collapsing {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-property: height, visibility;
+    transition-property: height, visibility;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.cell-header-item a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: unset;
+}
+
+.cell-header-item-h {
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.cell-header-item-sh, .cell small{
+    font-weight: 500;
+}
+
+.cell-content {
+    width: 100%;
+    height: 8.5625rem;
+    padding: 1rem;
+}
+
+.assign-list, .assign-list-item {
+    background: transparent;
+}
+
+.assign-list-item {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+    padding: 0;
+}
+
+.cell-footer {
+    width: 100%;
+    height: 3.5625rem;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+/* Sign in */
+#border{
+    padding-top: 10px;
+    border-bottom: 1px solid red;
+    clear: both;
+}
+
+#container_s{
+    clear: both;
+    padding-top: 100px;
+}
+#logo-header{
+    width: 50%;
+    float: left;
+    margin-left: 50px;
+}
+
+#certificates{
+    float: right;
+    margin-right: 50px;
+}
+
+
+.title{
+    float: left;
+    width: 55%;
+}
+
+#logo{
+    display: block;
+    padding-top: 0;
+    padding-left: 20%;
+}
+
+#certificates{
+    float: right;
+}
+
+#sign_in_form{
+    margin-top: 20px;
+    width: 396px;
+    background-color: white;
+    float: right;
+    border: 1px solid;
+    border-radius: 5px;
+
+    box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+#container_s #error{
+    color: red;
+}
+
+
+
+.sign_title  input[type="text"], input[type="password"]{
+    width: 360px;
+    height: 52px;
+    padding: 14px 16px;
+
+}
+
+.form_check input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+.form_check{
+    display: block;
+}
+
+#container_s button[type="submit"]{
+    width: 180px;
+    height: 45px;
+}
+
+#container_s table td{
+    padding: 16px;
+}
+
+
+.error_message{
+    color: red;
+}
+
+/* ----------------------------------------------------------------*/
+/*Register*/
+
+
+.register_area{
+    border: 1px ;
+    border-radius: 10px;
+    box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.2);
+    margin: 80px auto;
+    width: 500px;
+    padding: 30px;
+}
+
+
+.register_area input{
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #f0f0f0;
+}
+
+
+.register_area .header span{
+    display: block;
+}
+
+
+.register_area .title {
+    font-size: 25px;
+}
+
+.register_area .header{
+    padding-bottom: 30px
+}
+
+.register_area .input_area{
+    padding-top : 30px;
+}
+
+.register_area .surname_name{
+    margin-bottom: 20px;
+}
+
+.register_area .surname{
+    padding-right: 28px;
+}
+
+.register_area .email #email{
+    width: 100%;
+}
+
+.register_area .date_of_birth{
+    float: right;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_area .phone_number{
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_area .phone_number #phone {
+    width: 100%;
+}
+.register_area .date_phone{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.register_area .user_name{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_area .password_confirm{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.register_area #confirm{
+    margin-top: 20px;
+}
+
+.register_area .buttons{
+    height: 40px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+.register_area .buttons .login_button{
+    height: 40px;
+}
+
+.register_area .buttons .next_button{
+    height: 39px;
+}
+
+.register_area .username_demand p{
+    padding-left: 5px;
+}
+
+.register_area .password_demand p{
+    padding-left: 5px;
+    clear: both;
+}
+
+/* Forget password */
+
+.forget_form{
+    border: 1px ;
+    border-radius: 2.5px;
+    box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 700px;
+    margin: 120px auto;
+    height: 200px;
+}
+
+.forget_form #header{
+    font-size: 13px;
+    border-bottom: 1.5px solid  gray;
+}
+
+.forget_form .forget_input{
+    font-size: 15px;
+    width: 100%;
+}
+
+.forget_form .input_area{
+    padding-left: 120px;
+    padding-top: 10px;
+}
+
+.forget_form .forget_input #instruction p{
+    margin-bottom: 10px;
+}
+
+.forget_form .forget_input input{
+    width: 280px;
+    height: 3px;
+    padding: 10px 5px;
+
+}
+
+.forget_form .buttons_area{
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 0;
+    height: 30px;
+}
+
+.forget_form .buttons_area .buttons{
+    float: right;
+}
+
+.forget_form .buttons_area button{
+    padding: 1px 8px;
+}
+
+.forget_form #header_reset{
+    font-size: 25px;
+}
